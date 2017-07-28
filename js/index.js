@@ -1,5 +1,5 @@
 // 1 спосіб: Цикл
-/*let n = Number(prompt('Enter n:'));
+let n = Number(prompt('Enter n:'));
 
 function fibonachi(n) {
     let number;
@@ -14,11 +14,11 @@ function fibonachi(n) {
     }
     return number;
 }
-document.write(fibonachi(n));*/
+document.write(fibonachi(n));
 
 //2 спосіб: Вивід заданої к-сті чисел Фібоначчі з масиву
 
-let n = Number(prompt('Enter n:'));
+/*let n = Number(prompt('Enter n:'));
 
 function fibonachi(n) {
     let number;
@@ -35,7 +35,7 @@ var fibSaver = [];
 for (var i = 0; i < n; i++) {
     fibSaver.push(fibonachi(i));
     document.write(fibSaver[i] + '; ');
-}
+} */
 
 // 3 спосіб: Рекурсія
 /*let n = Number(prompt('Enter n:'));
